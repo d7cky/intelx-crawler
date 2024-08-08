@@ -42,15 +42,9 @@ Replace `your_query`, `your_api_key`, and `output.txt` with the appropriate valu
 
 ### Setup
 
-1. **Clone the repository**:
+1. **Pull the Docker image**:
     ```bash
-    git clone https://github.com/d7cky/intelx-crawler.git
-    cd intelx-crawler
-    ```
-
-2. **Build the Docker image**:
-    ```bash
-    docker build -t intelx-crawler .
+    docker pull quangduc280497/intelx-crawler
     ```
 
 ### Usage
