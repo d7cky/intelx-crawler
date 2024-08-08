@@ -44,7 +44,7 @@ Replace `your_query`, `your_api_key`, and `output.txt` with the appropriate valu
 
 1. **Pull the Docker image**:
     ```bash
-    docker pull quangduc280497/intelx-crawler
+    docker pull quangduc280497/intelx-crawler:v1
     ```
 
 ### Usage
