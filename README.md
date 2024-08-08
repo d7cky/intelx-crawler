@@ -30,7 +30,7 @@ This tool is designed to crawl data from IntelX and process it using Python. The
 
 ### Usage
 
-**Run the script with the required parameters**:
+1. **Run the script with the required parameters**:
     ```bash
     chmod +x run.sh
     ./run.sh -q "your_query" -k "your_api_key" -o "output.txt"
