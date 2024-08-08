@@ -19,8 +19,8 @@ This tool is designed to crawl data from IntelX and process it using Python. The
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/d7cky/intelx-crawler.git
+    cd intelx-crawler
     ```
 
 2. **Install the required Python packages**:
@@ -44,8 +44,8 @@ Replace `your_query`, `your_api_key`, and `output.txt` with the appropriate valu
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/d7cky/intelx-crawler.git
+    cd intelx-crawler
     ```
 
 2. **Build the Docker image**:
