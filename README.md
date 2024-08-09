@@ -28,6 +28,11 @@ This tool is designed to crawl data from IntelX and process it using Python. The
     pip install -r requirements.txt
     ```
 
+3. **Install the intelxapi library**:
+    ```bash
+    pip install -e intelxapi
+    ```
+
 ### Usage
 
 1. **Run the script with the required parameters**:
