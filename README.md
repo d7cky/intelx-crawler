@@ -30,16 +30,20 @@ This tool is designed to crawl data from IntelX and process it using Python. The
 
 3. **Install the intelxapi library**:
     ```bash
-    pip install -e intelxapi
+    pip install "intelx @ git+https://github.com/IntelligenceX/SDK#subdirectory=Python"
     ```
 
 ### Usage
 
-1. **Run the script with the required parameters**:
+1. **Run the script on Linux**:
     ```bash
     chmod +x run.sh
     ./run.sh -q "your_query" -k "your_api_key" -o "output.txt"
     ```
+
+2. **Run the script on Windows**:
+    ```bat
+    ./run.bat -q "your_query" -k "your_api_key" -o "output.txt"
 
 Replace `your_query`, `your_api_key`, and `output.txt` with the appropriate values.
 

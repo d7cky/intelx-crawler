@@ -19,8 +19,7 @@ WORKDIR /app
 COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY intelxapi /app/intelxapi
-RUN pip install -e /app/intelxapi
+RUN pip install "intelx @ git+https://github.com/IntelligenceX/SDK#subdirectory=Python"
 
 # Copy toàn bộ mã nguồn của bạn vào thư mục làm việc
 COPY . /app/
