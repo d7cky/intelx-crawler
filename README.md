@@ -38,12 +38,12 @@ This tool is designed to crawl data from IntelX and process it using Python. The
 1. **Run the script on Linux**:
     ```bash
     chmod +x run.sh
-    ./run.sh -q "your_query" -k "your_api_key" -o "output.txt"
+    ./run.sh "your_query" "your_api_key" "output.txt"
     ```
 
 2. **Run the script on Windows**:
     ```bat
-    ./run.bat -q "your_query" -k "your_api_key" -o "output.txt"
+    ./run.bat "your_query" "your_api_key" "output.txt"
 
 Replace `your_query`, `your_api_key`, and `output.txt` with the appropriate values.
 
