@@ -60,7 +60,7 @@ Replace `your_query`, `your_api_key`, and `output.txt` with the appropriate valu
 
 1. **Run the Docker container with the necessary parameters**:
     ```bash
-    docker run --rm -it -v "$(pwd)/output:/app/output" intelx-crawler "your_query" "your_api_key" "output.txt"
+    docker run --rm -it -v "$(pwd)/output:/app/output" quangduc280497/intelx-crawler:v1 "your_query" "your_api_key" "output.txt"
     ```
 
 Replace `your_query`, `your_api_key`, and `output.txt` with the appropriate values.
