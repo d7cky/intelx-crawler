@@ -11,6 +11,6 @@ output="$3"
 
 mkdir $query
 
-python intelx-crawls.py -q "$query" -k "$key" -o "$(pwd)/output/$output"
-sort "$(pwd)/output/$output" | uniq -u > "$(pwd)/output/unique.txt"
-grep -i "$query" "$(pwd)/output/unique.txt" > "$(pwd)/output/result.txt"
+python intelx-crawls.py -q "$query" -k "$key" -o "$(pwd)/$query/$output"
+sort "$(pwd)/$query/$output" | uniq -u > "$(pwd)/$query/unique.txt"
+grep -i "$query" "$(pwd)/$query/unique.txt" > "$(pwd)/$query/result.txt"
