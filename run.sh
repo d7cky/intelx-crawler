@@ -9,7 +9,7 @@ query="$1"
 key="$2"
 output="$3"
 
-mkdir output
+mkdir $query
 
 python intelx-crawls.py -q "$query" -k "$key" -o "$(pwd)/output/$output"
 sort "$(pwd)/output/$output" | uniq -u > "$(pwd)/output/unique.txt"

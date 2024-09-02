@@ -34,14 +34,18 @@ This tool is designed to crawl data from IntelX and process it using Python. The
     ```
 
 ### Usage
+1. **Run the script with Python**:
+    ```bash
+    python intelx-crawls.py -q "your_query" -k "your_api_key" -o "output.txt"
+    ```
 
-1. **Run the script on Linux**:
+2. **Run the script on Linux**:
     ```bash
     chmod +x run.sh
     ./run.sh "your_query" "your_api_key" "output.txt"
     ```
 
-2. **Run the script on Windows**:
+3. **Run the script on Windows**:
     ```bat
     ./run.bat "your_query" "your_api_key" "output.txt"
 
